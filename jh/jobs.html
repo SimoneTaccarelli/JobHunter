@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jobs</title>
+    <link rel="stylesheet" href="jobs.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <div id="contenitore">
+
+            <div>
+                <div>
+                    <p>Inserisici tipo di lavoro</p> <br>
+                    <input type="text" id="ricLav" placeholder="Teacher..."><br>
+                </div>
+                <div>
+                    <p>Inserisci il luogo </p><br>
+                    <input type="text" id="luogo" placeholder="EN...."><br>
+                </div>
+                <div>
+                    <input type="button" id="ricerca" value="Cerca" onclick="lavori(ricLav , luogo)">
+                    <section>
+                        <ul id="lista"></ul>
+                    </section>
+
+                </div>
+            </div>
+
+        </div>
+        <div class='title'>
+            <header>
+                <h1>trova opportunità di lavoro su</h1> <br>
+                <h1 class="jh"> Job Hunter: </h1><br>
+                <h1> il tuo futuro inizia qui !</h1>
+            </header>
+        </div>
+        <div class="foto">
+            <img src="concetto-di-multitasking-donna-d-affari-che-risolve-i-compiti-urgenti-illustrazione-del-vettore-di-gestione-del-progetto-di-realizzazione-e-di-abilita-di-lavoro-donna-d-affari-multita.jpg"
+                alt="lavoroimg">
+        </div>
+    </main>
+</body>
+<script src="jobs.js"></script>
+
+</html>

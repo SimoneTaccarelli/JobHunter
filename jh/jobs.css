@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(171, 122, 218);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+main{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+#contenitore{
+    text-align: center;
+    width:  296px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    
+    margin: 3rem;
+    align-self: center;
+    max-height: 2000px;
+    
+}
+
+#ricerca{
+    margin-top: 10px;
+}
+
+input{
+    border-radius: 5px;
+    text-align: center;
+}
+
+input:hover{
+    transform: scale(1.1);
+    
+}
+
+p{
+    margin-bottom: 1px;
+    color: white;
+}
+
+#lista{
+    margin-top: 20px;
+}
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+h1{
+    color: white;
+    display: inline;
+   
+}
+
+.jh{
+    color: blueviolet;
+}
+
+header{
+    align-content: center;
+}
+
+.foto img {
+    width: 500px;
+    border-radius: 20px;
+    margin: 2rem;
+}
+ 
+li{
+    color: white;
+    margin-right: 40px;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+.title{
+    align-self: center;
+}
